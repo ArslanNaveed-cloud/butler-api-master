@@ -1,0 +1,46 @@
+<html>
+  <head> </head>
+  <body
+    style="
+      background-image: linear-gradient(
+        140deg,
+        #e963d7 0%,
+        #d4a1c4 50%,
+        #e4ab62 75%
+      );
+    "
+  >
+    <h1 style="text-align: center">Welcome {{name}}</h1>
+    <div style="margin-left: 10%">
+      <p>
+        This is a confirmation of your successfull registration on the butler
+        platform.
+      </p>
+       <p>You can now create and submit jobs on the Platform</p>
+       <p>click on the button below to verify your account</p>
+      <p>
+        <button
+          style="
+            background: navy;
+            color: white;
+            border-radius: 5px;
+            width: 98px;
+            height: 33px;
+            margin-left: 36%;
+          "
+        >
+        <a href={{verificationLink}}>Verify</a>
+        </button>
+      </p>
+
+      <table>
+        <tr>
+          <td>Regards</td>
+        </tr>
+        <tr>
+          <td>Team Butler</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
